@@ -1,0 +1,25 @@
+$primary: #5c3896;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.landing {
+    background-image: url("/img/KINRA_splash.png");
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+
+.carousel-inner img {
+    margin: auto;
+    height: 500px;
+    max-height: 500px;
+}
