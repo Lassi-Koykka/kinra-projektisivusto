@@ -11363,6 +11363,16 @@ fieldset:disabled .btn {
   margin-bottom: 2rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #5c3896;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: black;
+}
+
 @media only screen and (max-width: 768px) {
   .carousel-indicators {
     padding-bottom: 0;

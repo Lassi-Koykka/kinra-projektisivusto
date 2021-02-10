@@ -1,6 +1,5 @@
 $primary: #5c3896;
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -63,6 +62,15 @@ $primary: #5c3896;
 
 .display-4 {
     margin-bottom: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $primary
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transition: 0.2s;
+    color: black;
 }
 
 @media only screen and (max-width: 768px) {
