@@ -6,20 +6,81 @@ $primary: #5c3896;
 
 .landing {
     background-image: url("/img/KINRA_splash.png");
-    position:relative;
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar {
     opacity: 0.9;
 }
 
-
 .carousel-inner img {
     margin: auto;
-    height: 500px;
-    max-height: 500px;
+    max-height: 50vh;
+    max-width: 100%;
+}
+
+.carousel-control-prev {
+    margin-left: -15%;
+}
+
+.carousel-control-next {
+    margin-right: -15%;
+}
+
+.carousel-indicators {
+    margin-bottom: -7.5%;
+    padding: 2.5%;
+}
+
+.carousel-caption {
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.embed {
+    max-height: 50vh;
+}
+
+.facebook {
+    text-align: center;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+.importantLinks .card {
+    padding: 3rem 1.5rem;
+    height: 100%;
+}
+
+.importantLinks .card img{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.display-4 {
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-indicators{
+        padding-bottom: 0;
+    }
+
+    .carousel-control-prev {
+        margin-left: auto;
+        opacity: 0;
+    }
+
+    .importantLinks .card {
+        padding: 1.5rem;
+    }
+
+    .carousel-control-next {
+        margin-right: auto;
+        opacity: 0;
+    }
 }
