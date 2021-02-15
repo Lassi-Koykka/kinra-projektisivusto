@@ -73,6 +73,21 @@ $primary: #5c3896;
     color: black;
 }
 
+.title {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.material-icons {
+    font-size: 75px
+}
+
+
+
 @media only screen and (max-width: 768px) {
     .carousel-indicators{
         padding-bottom: 0;
