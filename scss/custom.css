@@ -11306,7 +11306,7 @@ fieldset:disabled .btn {
 }
 
 .landing {
-  background-image: url("/img/KINRA_splash.png");
+  background-image: url("../img/KINRA_splash.png");
   position: relative;
   background-position: center;
   background-size: cover;
