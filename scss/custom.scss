@@ -85,8 +85,19 @@ $primary: #5c3896;
 .material-icons {
     font-size: 75px
 }
+.social-media-links a {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+.social-media-links img{
+    height: 50px; 
+    opacity: 0.8; 
+    transition: 0.5s;
+}
 
-
+.social-media-links img:hover{
+    opacity: 1;
+}
 
 @media only screen and (max-width: 768px) {
     .carousel-indicators{

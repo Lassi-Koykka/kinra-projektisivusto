@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="scss/custom.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>KINRA ry</title>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v9.0"
+        nonce="FBbF8l7l"></script>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/img/kinra_invisible_tausta.png" alt="Kinra logo"
+                        style="max-width: 4rem;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link" href="/saannot.html">Säännöt</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link" href="/hallitus.html">Hallitus</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link" href="/tapahtumat.html">Tapahtumat</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link" href="/haalarimerkit.html">Haalarimerkit</a>
+                        </li>
+                        <li class="nav-item ms-auto me-3">
+                            <a class="nav-link" href="/yhteystiedot.html">Yhteystiedot</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid text-primary">
+        <div class="title">
+            <h1 class="display-4 text-center">Tapahtumat</h1>
+            <span class="md-48 material-icons">event</span>
+            <p class="lead col-sm-8 col-md-6 col-xl-4 text-center">
+                Mitäpä olisi opiskelijaelämä ilman tapahtumia? Järjestämme itse, sekä
+                yhteistyössä muiden opiskelijajärjestöjen kanssa monen moisia tapahtumia ja bileitä.
+                Ilmoittelemme tulevista tapahtumista instagramisssa,
+                facebookissa ja sähköpostitse!
+            </p>
+            <div class="social-media-links">
+                <a href="">
+                    <img src="./img/facebook.png" alt="facebook">
+                </a>
+                <a href="">
+                    <img src="./img/instagram.png" alt="instagram">
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center col-xxl-7 col-sm-10 col-11 mx-auto my-5">
+            <h1 class="display-6 my-5">Tulevat tapahtumat</h1>
+            <div class="fb-page" data-href="https://www.facebook.com/kinrary/" data-tabs="timeline, events"
+                data-width="1000" data-height="600" data-small-header="true" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/kinrary/" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/kinrary/">Kuopion Insinööriopiskelijat KINRA
+                        ry</a>
+                </blockquote>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center col-xxl-4 col-md-6 col-11 mx-auto my-5">
+            <h1 class="display-6 my-5">syksyn tapahtumia</h1>
+            <!-- Syksyn tapahtumat accordion -->
+            <div class="accordion" id="syksyAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#syksyCollapseOne" aria-expanded="true" aria-controls="syksyCollapseOne">
+                      Tursajaiset
+                    </button>
+                  </h2>
+                  <div id="syksyCollapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#syksyAccordion">
+                    <div class="accordion-body">
+                        Tursajaiset on perinteikäs joka vuotinen tapahtuma missä uudet opiskelijat pääsevat ulkoiluttamaan ensimmäistä kertaa haalareitansa kierrellessään eri opiskelijajärjestöjen rasteilla ympäri kuopiota.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#syksyCollapseTwo" aria-expanded="false" aria-controls="syksyCollapseTwo">
+                      Maakuntaexcursio
+                    </button>
+                  </h2>
+                  <div id="syksyCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#syksyAccordion">
+                    <div class="accordion-body">
+                        Maakuntaexcursio on yksi KINRAn tunnetuimpia tapahtumia, jossa tarkoituksenahan on kiertää tutustumassa ravintolakulttuurrin läheisillä paikkakunnilla ja samalla pitää hauskaa insinööriopiskelijoiden tyyliin. Maakuntaexcursioita järjestetään kahdesti vuodessa, sekä syksyin, että keväisin.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#syksyCollapseThree" aria-expanded="false" aria-controls="syksyCollapseThree">
+                      ASTin risteily
+                    </button>
+                  </h2>
+                  <div id="syksyCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#syksyAccordion">
+                    <div class="accordion-body">
+                        ASTin tarkoittaa aloittavien ja aloittavanmielisten insinööriopiskelijoiden starttiristeilyä. ASTin on valtakunnallinen tapahtuma, minne KINRA järjestää kyydiyksen kuopiosta ja takaisin. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div class="text-center col-xxl-4 col-md-6 col-11 mx-auto my-5">
+            <h1 class="display-6 my-5">Kevään tapahtumia</h1>
+            <!-- Kevään tapahtumat accordion -->
+            <div class="accordion" id="kevatAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#kevatCollapseOne" aria-expanded="true" aria-controls="kevatCollapseOne">
+                      Winterfest
+                    </button>
+                  </h2>
+                  <div id="kevatCollapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#kevatAccordion">
+                    <div class="accordion-body">
+                        Opiskelijoiden talvirieha Winterfest kokoaa kaikki kuopiolaiset korkeakouluopiskelijat Savilahdelle talviseen hauskanpitoon. KINRA on myös paikanpäällä lämmittämässä paljuja ja maankuulua INSSISaunaamme.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#kevatCollapseTwo" aria-expanded="false" aria-controls="kevatCollapseTwo">
+                      Maakuntaexcursio
+                    </button>
+                  </h2>
+                  <div id="kevatCollapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#kevatAccordion">
+                    <div class="accordion-body">
+                        Maakuntaexcursio on yksi KINRAn tunnetuimpia tapahtumia, jossa tarkoituksenahan on kiertää tutustumassa ravintolakulttuurrin läheisillä paikkakunnilla ja samalla pitää hauskaa insinööriopiskelijoiden tyyliin. Maakuntaexcursioita järjestetään kahdesti vuodessa, sekä syksyin, että keväisin.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#kevatCollapseThree" aria-expanded="false" aria-controls="kevatCollapseThree">
+                      IOP
+                    </button>
+                  </h2>
+                  <div id="kevatCollapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#kevatAccordion">
+                    <div class="accordion-body">
+                        IOP eli Insinööriopiskelijapäivät on valtakunnallinen tapahtuma, joka on tarkoitettu kaikille insinööriopiskelijoille ja insinööriopiskelijamielisille. Tapahtumaan kuuluu mm. seminaari, After Work, ja rastikierros. IOP 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>  
+    </main>
+    <hr>
+    <footer class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Aloitussivu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/saannot.html">Säännöt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/hallitus.html">Hallitus</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/tapahtumat.html">Tapahtumat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/haalarimerkit.html">Haalarimerkit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/yhteystiedot.html">Yhteystiedot</a>
+            </li>
+        </ul>
+        <hr>
+        <p class="footerAdress my-5 text-center text-secondary">
+            KINRA ry, Microkatu 1, 70210 Kuopio
+            <br>
+            050 4352 736
+            <br>
+            Kuopion Insinööriopiskelijat KINRA Ry
+            <br>
+            2153358-6
+            <br>
+            POSTIOSOITE:
+            <br>
+            KINRA ry, PL 6, 70201 Kuopio
+        </p>
+    </footer>
+</body>
+
+</html>
