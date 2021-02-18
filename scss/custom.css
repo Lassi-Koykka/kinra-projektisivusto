@@ -6704,7 +6704,10 @@ fieldset:disabled .btn {
 }
 
 .carousel-dark .carousel-caption {
-  color: #000;
+  color: #5c3896;
+  background: white;
+  opacity: 0.8;
+  border-radius: 5px 5px 0px 0px;
 }
 
 @-webkit-keyframes spinner-border {
